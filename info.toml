@@ -1,0 +1,13 @@
+[meta]
+name = "All Decoration Unlocker"
+author = "Moski & Miss & Greep"
+category = "Map Editor"
+perms = "paid"
+siteid = 173
+
+version = "1.0"
+
+blocks = [ "Plugin_DecorationUnlocker" ]
+
+[script]
+imports = [ "Icons.as", "Patch.as" ]
