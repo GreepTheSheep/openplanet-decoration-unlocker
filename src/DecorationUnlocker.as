@@ -18,10 +18,14 @@ void OnDestroyed()
 void RenderMenu()
 {
 	if (UI::MenuItem("\\$cf9" + Icons::Map + "\\$z Unlock all decorations", "", g_patch.IsApplied())) {
-		if (g_patch.IsApplied()) {
-			g_patch.Revert();
-		} else {
-			g_patch.Apply();
-		}
+		if (Permissions::OpenAdvancedMapEditor()){
+            if (g_patch.IsApplied()) {
+                g_patch.Revert();
+            } else {
+                g_patch.Apply();
+            }
+        } else {
+            UI::ShowNotification(Icons::Times + " Error", "You don't have permission to use this feature.");
+        }
 	}
 }
