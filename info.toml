@@ -1,11 +1,11 @@
 [meta]
 name = "All Decoration Unlocker"
-author = "Moski & Miss & Greep"
+author = "Moski & Miss & Beu & Greep"
 category = "Map Editor"
 perms = "paid"
 siteid = 173
 
-version = "1.0"
+version = "2.0"
 
 blocks = [ "Plugin_DecorationUnlocker" ]
 
