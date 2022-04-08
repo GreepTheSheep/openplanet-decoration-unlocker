@@ -8,7 +8,7 @@ This plugin was forked from the old .as version from MosKi with its permission b
 
 ## Patch modes
 
-__Stadium Sound Fix__: This patch mode fixes the sound bug by adding possibility to build below the grass. (Patch by Beu)
+__Stadium Sound Fix__: This patch mode fixes the sound bug by adding possibility to build below the grass. (Patch by @AmazingBeu)
 
 __No Block Below__ (16x12): This patch mode prevents the player from being able to place blocks below the grass, but there's no sound bug. (Patch by Moski)
 
