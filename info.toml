@@ -1,13 +1,9 @@
 [meta]
 name = "All Decoration Unlocker"
-author = "Moski & Miss & Beu & Greep"
+author = "Miss, Moski, Beu, Greep"
 category = "Map Editor"
-perms = "paid"
-siteid = 173
-
-version = "2.0"
-
+version = "3.0"
 blocks = [ "Plugin_DecorationUnlocker" ]
 
 [script]
-imports = [ "Patch.as", "Permissions.as" ]
+imports = [ "Patch.as" ]
